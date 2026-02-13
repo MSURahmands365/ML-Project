@@ -32,7 +32,7 @@ def fit_and_save_encoders(df: pd.DataFrame, target_col: str = "Price"):
     for col in df_ohe_only.columns:
         df[col] = df_ohe_only[col]
 
-    print("✅ All columns merged into original df successfully.")
+    print("All columns merged into original df successfully.")
     return df
 
 
